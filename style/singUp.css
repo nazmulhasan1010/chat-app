@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/font/Poppins-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+    padding: 0 10px;
+}
+
+.main-form {
+    height: auto;
+    width: 420px;
+    background-color: #fff;
+    padding: 20px 35px;
+    border-radius: 15px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    padding: 10px 0 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid #ccc
+}
+
+.sing-input {
+    display: block;
+    position: relative;
+}
+
+.name-fild {
+    width: 50%;
+    position: relative;
+    background: none;
+}
+
+.name-fild:first-child {
+    margin: 0 10px 20px 0;
+    text-transform: capitalize;
+}
+
+.name-fild:last-child {
+    margin: 0 0 20px 10px;
+    text-transform: capitalize;
+}
+
+.error-box {
+    color: #7c7a7a;
+    padding: 8px 10px;
+    text-align: left;
+    border-radius: 5px;
+    background: #f8d7da;
+    border: 1px solid #721c24;
+    margin-bottom: 10px;
+}
+
+.check {
+    height: 16px;
+    width: 16px;
+    margin: 3px 0 0 0;
+}
+
+.password_fild {
+    display: flex;
+}
+
+.hide_pass {
+    position: fixed;
+    margin: 7.4px 0 0 320px;
+    cursor: pointer;
+    color: black;
+}
+
+.error-box ol {
+    padding: 0 0 0 20px;
+}
+
+.success-box {
+    color: #339933;
+    padding: 8px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #d9f2d9;
+    border: 1px solid #339933;
+    margin-bottom: 10px;
+}
+
+.first-name, .last-name {
+    height: 30px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 14px;
+    margin-top: 2px;
+    text-transform: capitalize;
+}
+
+.name-input {
+    background: none;
+    display: flex
+}
+
+.main-form label {
+    margin-bottom: 2px;
+}
+
+::placeholder {
+    color: #ccc
+}
+
+.email, .password, .confirm-password {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+    outline: none;
+    margin: 2px 0 10px 0;
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+    font-size: 14px;
+}
+
+.submit {
+    margin: 20px 0 30px 0;
+    text-align: center
+}
+
+.submit-button {
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    background: #333;
+    color: white;
+    margin-bottom: 10px
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/font/Poppins-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #f7f7f7;
+    padding: 0 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.main-stracture {
+    width: 360px;
+    max-height: 600px;
+    justify-content: center;
+    align-items: center;
+    background: #e6e6e6;
+    border-radius: 20px;
+    overflow: scroll;
+}
+
+.profile_pic_preview {
+    display: flex;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    margin: 15px auto 0px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.optionBar {
+    height: auto;
+    background: #fff;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.backButton {
+    padding: 15px 15px;
+    width: 50%;
+    font-size: 22px;
+}
+
+.moreOptions {
+    text-align: right;
+    width: 50%;
+    padding: 15px 15px;
+    font-size: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nameBox {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 20px
+}
+
+.bioBox {
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    word-wrap: wrap;
+}
+
+.bioBoxInput {
+    outline: none;
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    word-wrap: wrap;
+}
+
+.inputBox {
+    justify-content: center;
+    display: flex
+}
+
+.infoBox {
+    margin: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.headding {
+    padding: 2px 10px;
+    background: #ccc;
+    font-size: 14px
+}
+
+.headding2 {
+    padding: 2px 10px;
+    background: #ccc;
+    font-size: 14px;
+    display: flex;
+}
+
+.about {
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.aboutEdit {
+    padding: 7px;
+    outline: none;
+    border: none;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 80%;
+    margin: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.editButton {
+    justify-content: center;
+    display: flex;
+    margin: 10px 0 20px 0;
+}
+
+.friendsBox {
+    height: auto;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    overflow-x: scroll;
+    padding: 0 5px 10px 5px
+}
+
+.hedding_txt {
+    width: 50%;
+}
+
+.friends_num {
+    width: 50%;
+    text-align: right;
+}
+
+.frind {
+    padding: 5px;
+}
+
+.profile_picture {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.edit_profile_info {
+    display: none;
+}
+
+.profile_edit_input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 2px 10px;
+    font-size: 15px;
+}
+
+.profile_edit_input_form {
+    display: inline-block;
+    width: 100%;
+}
+
+.edbtaes {
+    padding: 5px;
+    outline: none;
+    border: none;
+    margin: 10px auto;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.save_btn {
+    justify-content: center;
+    display: flex;
+}
+
+.head_box {
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
